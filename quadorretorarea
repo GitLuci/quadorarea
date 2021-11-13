@@ -1,0 +1,8 @@
+lda = int(input("Qual o tamanho do lado A ? "))
+ldb = int(input("Qual o tamanho do lado B ? "))
+if lda != ldb:
+    aRet = ldb * lda 
+    print("Este é um retangulo, com area {}u²".format(aRet))
+else:
+    aQuad = ldb ** 2
+    print("Este é um quadrado, com a area {}u²".format(aQuad))
